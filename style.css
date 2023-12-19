@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* req css */
+h6 {
+  margin: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+/* Font */
+
+.fw-bold {
+  font-weight: bold;
+}
+
+/* Base */
+.w-full {
+  width: 100%;
+}
+
+/* Display */
+.d-none {
+  display: none;
+}
+
+.v-none {
+  visibility: hidden;
+}
+/* Text */
+.text-center {
+  text-align: center;
+}
+
+/*  margins */
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+/* Padding */
+.p-1 {
+  padding: 1rem;
+}
+
+/* Fucking Child */
+.child {
+  display: none;
+  margin-top: 10px;
+}
+
+/* flexbox */
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+/* Fast Css */
+.myBTN {
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem;
+  background-color: green;
+  border-radius: 8px;
+  width: 22%;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: green;
+}
+
+.wrap-shipping-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ship {
+  width: 22%;
+}
+
+.ship-text {
+  color: green;
+}
+
+.power {
+  width: 22%;
+}
+.wrap-card {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Here Width set Explicit for fast css  - if we need responsive need to wrap in div and set width and height using cal()*/
+.card {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  flex-direction: column;
+  border: 2px solid grey;
+}
+
+.card:hover .child {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-inner-left {
+  display: flex;
+}
+
+.card-inner-right {
+  display: flex;
+}
+
+.first-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myStyle {
+  border: 2px solid green;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Divs</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Test -->
+    <form>
+      <div class="wrap-card">
+        <h6 class="text-center title mb-1">Bundle & Save</h6>
+        <!-- First Card -->
+        <div class="card p-1 mb-2">
+          <div class="card-inner-left">
+            <input type="radio" name="toggle" id="radioButton" onclick="myFunction()" class="mr-1 radioButtonClass" />
+            <div id="firstDiv" class="nochild w-full">
+              <div class="first-one">
+                <div class="">2Pair</div>
+                <div class="d-none">Most Popular</div>
+              </div>
+              <div class="first-two">
+                <div class="">DKK 345.00</div>
+                <div class="">40% OFF</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-inner-right">
+            <input
+              type="radio"
+              name="toggle"
+              id="radioButton1"
+              class="mr-1 v-none radioButtonClass hover"
+            />
+            <div id="secondDiv" class="child">
+              <div class="wrap-second-child1 d-flex align-items-center">
+                <div class="mr-1">#1</div>
+                <div class="">
+                  <div class="second-child1 d-flex mb-1">
+                    <div class="second-sub-child">
+                      <div class="">Size</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">S</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                    <div class="second-sub-child mx-1">
+                      <div class="">Colour</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">colour</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-second-child2 d-flex align-items-center">
+                <div class="mr-1">#2</div>
+                <div class="">
+                  <div class="second-child2 d-flex mb-1">
+                    <div class="second-sub-child">
+                      <div class="v-none">Size</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">S</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                    <div class="second-sub-child mx-1">
+                      <div class="v-none">Colour</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">colour</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="card p-1 mb-2">
+          <div class="card-inner-left">
+            <input type="radio" name="toggle" id="radioButton radioButtonClass hover" class="mr-1" />
+            <div id="firstDiv" class="nochild w-full">
+              <div class="first-one">
+                <div class="">2Pair</div>
+                <div class="d-none">Most Popular</div>
+              </div>
+              <div class="first-two">
+                <div class="">DKK 345.00</div>
+                <div class="">40% OFF</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-inner-right">
+            <input
+              type="radio"
+              name="toggle"
+              id="radioButton1"
+              class="mr-1 v-none"
+            />
+            <div id="secondDiv" class="child">
+              <div class="wrap-second-child1 d-flex align-items-center">
+                <div class="mr-1">#1</div>
+                <div class="">
+                  <div class="second-child1 d-flex mb-1">
+                    <div class="second-sub-child">
+                      <div class="">Size</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">S</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                    <div class="second-sub-child mx-1">
+                      <div class="">Colour</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">colour</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-second-child2 d-flex align-items-center">
+                <div class="mr-1">#2</div>
+                <div class="">
+                  <div class="second-child2 d-flex mb-1">
+                    <div class="second-sub-child">
+                      <div class="v-none">Size</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">S</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                    <div class="second-sub-child mx-1">
+                      <div class="v-none">Colour</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">colour</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="card p-1 mb-2">
+          <div class="card-inner-left">
+            <input type="radio" name="toggle" id="radioButton" onclick="myFunction()" class="mr-1" />
+            <div id="firstDiv" class="nochild w-full">
+              <div class="first-one">
+                <div class="">2Pair</div>
+                <div class="d-none">Most Popular</div>
+              </div>
+              <div class="first-two">
+                <div class="">DKK 345.00</div>
+                <div class="">40% OFF</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-inner-right">
+            <input
+              type="radio"
+              name="toggle"
+              id="radioButton1"
+              class="mr-1 v-none"
+            />
+            <div id="secondDiv" class="child">
+              <div class="wrap-second-child1 d-flex align-items-center">
+                <div class="mr-1">#1</div>
+                <div class="">
+                  <div class="second-child1 d-flex mb-1">
+                    <div class="second-sub-child">
+                      <div class="">Size</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">S</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                    <div class="second-sub-child mx-1">
+                      <div class="">Colour</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">colour</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-second-child2 d-flex align-items-center">
+                <div class="mr-1">#2</div>
+                <div class="">
+                  <div class="second-child2 d-flex mb-1">
+                    <div class="second-sub-child">
+                      <div class="v-none">Size</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">S</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                    <div class="second-sub-child mx-1">
+                      <div class="v-none">Colour</div>
+                      <select name="cars" id="cars">
+                        <option value="volvo">colour</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Shipping details -->
+      </div>
+    </form>
+    <div class="wrap-shipping-details mb-2">
+      <div class="ship d-flex justify-content-between">
+        <div class="ship-text">Free 2 Day shipping</div>
+        <div class="">
+          <span class=""> Total: </span>
+          <span class="fw-bold"> DKK 360.00 </span>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-shipping-details mb-1">
+      <button class="myBTN">+ Add to Cart</button>
+    </div>
+    <div class="wrap-shipping-details">
+      <div class="d-flex justify-content-end power">
+        <small class="m-0">@ Powered by pumper</small>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
